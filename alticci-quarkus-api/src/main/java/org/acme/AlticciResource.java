@@ -47,7 +47,7 @@ public class AlticciResource {
     @Operation(
         operationId = "getAlticciN",
         summary = "Get the Nth term of Alticci sequency",
-        description = "The Alticci sequency - a(n) - is defined as:\n\tn=0 => a(0) = 0\n\tn=1 => a(1) = 1\n\tn=2 => a(2) = 1\n\tn>2 => a(n) = a(n-3) + a(n-2)"
+        description = "The Alticci sequency - a(n) - is defined as: n=0 => a(0) = 0, n=1 => a(1) = 1, n=2 => a(2) = 1 and n>2 => a(n) = a(n-3) + a(n-2)"
     )
     @APIResponse(
         responseCode = "200",
